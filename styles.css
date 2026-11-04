@@ -1,0 +1,283 @@
+/*hinter page*/
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgba(168, 73, 227, 1) 0%, rgba(222, 72, 212, 1) 100%); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* chat ort*/
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ober des chst*/
+.chat-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ort des massge*/
+.chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* user*/
+.chat-messages .message.user {
+    background-color: #e0c3fc;  
+    color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+    align-self: flex-end;  /* recht*/
+    position: relative;
+}
+
+/* bot messag*/
+.chat-messages .message.bot {
+    background-color: #9b4de3;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+    align-self: flex-start;  /*links */
+    position: relative;
+}
+
+/* platz das sendung*/
+.chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.chat-input input {
+    width: 80%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.chat-input button:hover {
+    background-color: #ff3399;
+}
+/* logo in das ecke*/
+.info-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+/* wenn wir darauf bewegen*/
+.info-icon:hover {
+    background-color: #ff3399;
+}
+
+.info-icon i {
+    font-size: 24px;
+}
+/*beakpage*/
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgba(168, 73, 227, 1) 0%, rgba(222, 72, 212, 1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*set Zahlung */
+.info-zahlung {
+    background-image: url('zahlung.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sit Bestellung */
+.info-bestellung {
+    background-image: url('bestellen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* kundenkonto set */
+.info-kundenkonto {
+    background-image: url('kunden-konto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info sit*/
+.info-container {
+    max-height: 80vh;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);  /*aus siehst beackground*/
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+/* text setting*/
+.info-container h1 {
+    font-size: 28px;  /* size das schriftt*/
+    margin-bottom: 20px;
+}
+
+.info-container p {
+    font-size: 14px; /*size das schrifft*/
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* drücker*/
+.info-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFB600;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;  /* size das schriftt*/
+}
+
+.info-button:hover {
+    background-color: #ff9900;
+}
+
+/* inhalt das info page*/
+body.info-page {
+    background-image: url('index-bild.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*feste page */
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info bage*/
+.info-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7); /* background*/
+    border-radius: 12px;
+    width: 70%;
+    max-width: 800px;
+    overflow-y: auto; 
+}
+
+/* setting drücker*/
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-button {
+    background-color: #ffcc00;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #e6b800;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* zürucker drucker*/
+.info-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFB600; /*drucker farbeا*/
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.info-button:hover {
+    background-color: #ff9900; /* hover */
+}
+
+/* drucker in info page*/
+.info-page .info-container {
+    max-height: 80vh;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.7);  
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+    margin-top: 20%;
+}
